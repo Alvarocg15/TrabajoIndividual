@@ -16,7 +16,7 @@
                     <li><a href="#">Formulario de Contacto</a></li>
                     <li><a href="#">Información de contacto</a></li>
                     <li><a href="#">Horario de atención</a></li>
-                    <li><a href="#"></a>Ubicación</li>
+                    <li><a href="#">Ubicación</a></li>
                 </ul>
             </div>
         </div>

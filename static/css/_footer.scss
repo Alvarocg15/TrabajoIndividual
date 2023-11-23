@@ -1,0 +1,40 @@
+@use "vars";
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: vars.$color_fondo_footer;
+
+    div.columnas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        div{
+            flex: 1;
+            padding: vars.$padding_footer;
+            color: vars.$color_letra_footer;
+
+            ul{
+                list-style-type: none;
+                margin-left: 0;
+            }
+            
+            a{
+                text-decoration: none;
+                color: vars.$color_letra_footer;
+                padding: 0.5rem;
+                display: block;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+
+        div:nth-child(1){
+            flex: 2;
+        }
+    }
+}

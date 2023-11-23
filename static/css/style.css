@@ -1,1 +1,120 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+* {
+  outline: solid red;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(19, 185, 61);
+}
+footer div.columnas {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+footer div.columnas div {
+  flex: 1;
+  padding: 1rem;
+  color: white;
+}
+footer div.columnas div ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+footer div.columnas div a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+  display: block;
+}
+footer div.columnas div a:hover {
+  text-decoration: underline;
+}
+footer div.columnas div h4 {
+  padding-left: 40px;
+}
+footer div.columnas div:nth-child(1) {
+  flex: 2;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 9;
+}
+header img {
+  height: 75px;
+  margin: 5px;
+}
+header nav {
+  align-self: stretch;
+  background-color: rgb(19, 185, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  position: relative;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+header nav ul li:hover {
+  text-shadow: 2px 2px 3px lightblue;
+  background-color: darkgray;
+}
+header nav ul li:hover ul.submenu {
+  display: flex;
+  min-width: 30rem;
+}
+header nav ul li:hover ul.submenu.izq {
+  right: 0;
+  left: auto;
+}
+header nav ul.submenu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 3.5rem;
+  left: 0;
+  background-color: rgb(19, 185, 61);
+}
+header nav a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+header nav.megamenu {
+  position: relative;
+}
+header nav.megamenu .inner {
+  padding: 1rem;
+  gap: 5rem;
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  position: absolute;
+  background-color: rgb(19, 185, 61);
+}
+header nav.megamenu.reveal .inner {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */

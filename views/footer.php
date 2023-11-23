@@ -1,7 +1,7 @@
     <footer>
         <div class="columnas">
             <div>
-                <a href="#">Sobre Nosotros</a>
+                <h4><a href="#">Sobre Nosotros</a></h4>
                 <ul>
                     <li><a href="#">Información de la empresa</a></li>
                     <li><a href="#">Equipo</a></li>
@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div>
-                <a href="#">Contacto</a>
+                <h4><a href="#">Contacto</a></h4>
                 <ul>
                     <li><a href="#">Formulario de Contacto</a></li>
                     <li><a href="#">Información de contacto</a></li>

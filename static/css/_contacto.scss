@@ -1,0 +1,55 @@
+//    <!--Alvaro Cedazo Gonzalez-->
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    background-image: url('../img/ciervo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 60px;
+    
+    .contactanos{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+
+        width: 25%;
+
+        .input{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            
+        }
+
+        .input label{
+            padding: 5px; ;
+        }
+
+        .boton{
+            width: 25%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            
+        }
+    }
+  }

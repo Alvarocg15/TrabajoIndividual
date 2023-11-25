@@ -1,0 +1,27 @@
+//    <!--Alvaro Cedazo Gonzalez-->
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../img/ciervo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #icon{
+        position: absolute;
+        display: block;
+        bottom: .5rem;
+        right: 1rem;
+        
+        user-select: none;
+        cursor: pointer;
+      }
+
+  }

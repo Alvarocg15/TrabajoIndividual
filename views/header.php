@@ -1,3 +1,4 @@
+    <!--Alvaro Cedazo Gonzalez-->
 <?php require("views/parts/head.php"); ?>
     
     <div id="loader">
@@ -7,8 +8,7 @@
     <?php require("views/parts/offcanvas.php"); ?>
 
     <header>
-        <img src="static/img/Logo-Libreria.png" alt="logo" width="100">
-        <p>Título de la web</p>
+        
         
         <?php require("views/parts/menu.php"); ?>
         

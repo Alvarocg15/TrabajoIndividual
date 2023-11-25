@@ -8,7 +8,7 @@
         </div>
     
     
-        <!-- Right Column -->
+        
         <div class="right-column">
     
             <!-- Product Description -->
@@ -20,7 +20,7 @@
                 <br>Todos los rifles B14 son capaces de producir agrupaciones de sub -1,0 MOA o menos a 100 yardas (91,44 metros) utilizando munición de grado match de fábrica.</p>
             </div>
     
-            <!-- Product Pricing -->
+            
             <div class="product-price">
             <span>969,00 €</span>
             <a href="#" class="cart-btn">Add to cart</a>

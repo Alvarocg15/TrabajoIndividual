@@ -1,3 +1,4 @@
+//    <!--Alvaro Cedazo Gonzalez-->
 @use "vars";
 
 footer{
@@ -36,8 +37,10 @@ footer{
             }
         }
 
-        div:nth-child(1){
-            flex: 2;
-        }
+    }
+
+    h2{
+        font-weight: bold;
+        color: white;
     }
 }

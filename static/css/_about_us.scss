@@ -1,0 +1,25 @@
+//Alvaro Cedazo Gonzalez
+.about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    background-image: url('../img/ciervo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 60px;
+
+    div{
+        width: 80%;
+
+    }
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

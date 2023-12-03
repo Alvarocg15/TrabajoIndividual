@@ -6,7 +6,9 @@
 @use "contacto";
 @use "about_us";
 @use "producto";
-
+@use "index";
+@use "categoria";
+@use "admin";
 header{
     display: flex;
     flex-direction: column;
@@ -17,8 +19,8 @@ header{
     z-index: 9;
 
     img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         margin: 5px;
     }
 
@@ -121,7 +123,7 @@ header{
     }
 }
 
-section {
+section{
   position: relative;
   max-width: 400px;
   background-color: transparent;
@@ -245,4 +247,25 @@ button:hover {
 
 .register p a:hover {
   text-decoration: underline;
+}
+
+
+
+.buscador{
+  padding-left: 0px;
+  padding-right: 0px;
+
+  button#botonLupa {
+    padding: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  
+    img{
+      height: 16px;
+      width: 16px;
+    }
+  }
 }

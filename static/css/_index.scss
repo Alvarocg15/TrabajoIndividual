@@ -1,0 +1,198 @@
+@use "vars";
+
+.principio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    background-image: url('../img/ciervo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    //padding: 60px;
+
+    .prueba{
+        /*width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        width: 100%;
+        background-color: white;
+        background-size: cover;
+        background-position: center center;
+    
+        color: vars.$color_fuente_menu;*/
+
+        width: 100%;
+        height: 95vh;
+        background-image: url(https://getwallpapers.com/wallpaper/full/d/0/2/181736.jpg);
+        background-size: cover;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-blend-mode: overlay;
+        background-attachment: fixed;
+        -webkit-text-stroke: 1px black; /* width and color */
+
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+    
+            
+            /*top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;*/
+            --backdrop-filter: blur(2px);
+        }
+
+
+        a{
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            text-decoration: none;
+            transition: 0.5s;
+            border: solid 1px vars.$color_fondo_menu;
+        }
+    
+        a:hover{
+            background-color: vars.$color_fondo_menu;
+            box-shadow: 0 0 5px 2px vars.$color_fondo_menu;
+        }
+    }
+    .opiniones{
+        width: 80vw;
+        padding: 40px;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .opinion{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(5px);
+        width: 25%;
+        
+        img{
+            height: 15px;
+        }
+    }
+
+    #categorias{
+        width: 80vw;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .fila{
+            width: 60vw;
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        a{
+            width: 50vw;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            text-decoration: none;
+            transition: 0.5s;
+            border: solid 1px vars.$color_fondo_menu;
+        }
+    
+        a:hover{
+            background-color: vars.$color_fondo_menu;
+            box-shadow: 0 0 5px 2px vars.$color_fondo_menu;
+        }
+    }
+    #destacados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 250px;
+            height: 400px;
+        }
+    }
+
+    div.ribbon{
+        font-size: 14px;
+        padding: 10px;
+        position: absolute;
+        right: -25px;
+        top: -12px;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(20deg);
+        background-color: vars.$color_fondo_menu;
+        color: white;
+    }
+
+    #interes{
+        width: 100vw;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .fila{
+            width: 80vw;
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        a{
+            width: 50vw;
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            text-decoration: none;
+            transition: 0.5s;
+            border: solid 1px vars.$color_fondo_menu;
+        }
+    
+        a:hover{
+            background-color: vars.$color_fondo_menu;
+            box-shadow: 0 0 5px 2px vars.$color_fondo_menu;
+        }
+    }
+}
+

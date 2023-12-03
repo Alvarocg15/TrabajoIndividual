@@ -1,0 +1,148 @@
+@use "vars";
+
+
+main.admin{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    gap:1rem;
+    background-color: 	#FFB6C1;
+
+    h1{
+        font-size: 3rem;
+    }
+
+    p.total span{
+        font-size:2rem;
+        font-weight: bold;
+        text-shadow: 0 0 2px #2f2966;
+    }
+
+    div:has(table){
+       margin:2rem;
+       height:500px;
+       overflow-y: scroll;
+       position:relative;
+    }
+
+    table{
+        border:solid;
+        border-collapse: collapse;
+
+        thead{
+            position:sticky;
+            top:0px;
+            
+            tr{
+                border:solid 3px black;
+            }
+
+        }
+
+        td{
+            font-size: 1.5rem;
+
+        }
+        th{
+            font-size: 1.8rem;
+        }
+
+        td,th{
+            
+            border:solid 2px black;
+            padding:1rem 2rem;
+
+            img{
+                width: 200px;
+                height: auto;
+            }
+        }
+
+        td.options div{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap:1rem;
+            visibility: hidden;
+        }
+
+        td.options{
+            border: none;
+        }
+
+        tr:hover td.options div{
+            visibility: visible;
+        }
+
+        th{
+            background-color: #2f2966;
+            color: black;
+        }
+
+        tr:hover{
+            background-color: #8b8b8b !important;
+            color: black;
+        }
+
+        tr:has(input[type=checkbox]:checked){
+          background-color: orange;  
+        }
+
+    }
+
+}
+
+
+
+.container-tabla{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+
+    .alumnos-profesor{
+        padding-top: 200px;
+        text-align: center;
+        table{
+            font-size: 2rem;
+            border-collapse: collapse;
+            
+            th{
+                background-color: #a8a8a8;
+                color: black;
+            }
+
+            th,td{
+                padding: 10px;
+                border: 1px solid black;
+                a{
+                    color: black;
+                    &:hover{
+                        color: white;
+                        transition: color 0.25s ease ;
+                    }
+                }
+
+                i{
+                    padding: 5px;
+                }
+            }
+            tr:hover{
+                color: white;
+                background-color: #2f2966;
+                transition: background-color 0.25s ease ;
+            }
+            
+        }
+
+    }
+    p {
+        text-align: left;
+    padding-bottom: 30px;
+        
+      }
+    }

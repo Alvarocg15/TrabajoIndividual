@@ -38,6 +38,14 @@
         <li><a href="#" id="menu_usuario">Optica</a></li>
     </ul>
     <ul>
-        <li><input type="search" placeholder="Buscar"></li>
+        <li>
+            
+            <form action="#" method="get">
+                <div class="buscador">
+                    <input type="text" id="search" name="search" placeholder="Buscar producto">
+                    <button id="botonLupa" type="submit"><img src="static/img/lupa.png" alt="logo"></button>
+                </div>
+            </form>
+        </li>
     </ul>                      
 </nav>

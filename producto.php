@@ -4,7 +4,7 @@
 <main class="producto">
     <div class="container">
         <div class="left-column">
-            <img src="static/img/producto1.jpg" alt="fotoooooooo">
+            <img src="static/img/producto1.jpg" alt="foto">
         </div>
     
     

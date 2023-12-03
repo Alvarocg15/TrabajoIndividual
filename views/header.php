@@ -5,7 +5,6 @@
         <div></div>
     </div>
 
-    <?php require("views/parts/offcanvas.php"); ?>
 
     <header>
         

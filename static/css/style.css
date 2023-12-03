@@ -203,6 +203,7 @@ footer h2 {
   font-weight: 300;
   color: white;
   line-height: 24px;
+  padding-left: 20px;
 }
 
 .product-price {
@@ -232,6 +233,362 @@ footer h2 {
   background-color: #64af3d;
 }
 
+.principio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  background-image: url("../img/ciervo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.principio .prueba {
+  /*width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+
+  color: vars.$color_fuente_menu;*/
+  width: 100%;
+  height: 95vh;
+  background-image: url(https://getwallpapers.com/wallpaper/full/d/0/2/181736.jpg);
+  background-size: cover;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  -webkit-text-stroke: 1px black; /* width and color */
+}
+.principio .prueba div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  /*top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  --backdrop-filter: blur(2px);
+}
+.principio .prueba a {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  border: solid 1px rgb(19, 185, 61);
+}
+.principio .prueba a:hover {
+  background-color: rgb(19, 185, 61);
+  box-shadow: 0 0 5px 2px rgb(19, 185, 61);
+}
+.principio .opiniones {
+  width: 80vw;
+  padding: 40px;
+}
+.principio .contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.principio .opinion {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 25%;
+}
+.principio .opinion img {
+  height: 15px;
+}
+.principio #categorias {
+  width: 80vw;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.principio #categorias .fila {
+  width: 60vw;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.principio #categorias a {
+  width: 50vw;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  border: solid 1px rgb(19, 185, 61);
+}
+.principio #categorias a:hover {
+  background-color: rgb(19, 185, 61);
+  box-shadow: 0 0 5px 2px rgb(19, 185, 61);
+}
+.principio #destacados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.principio #destacados img {
+  width: 250px;
+  height: 400px;
+}
+.principio div.ribbon {
+  font-size: 14px;
+  padding: 10px;
+  position: absolute;
+  right: -25px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: rgb(19, 185, 61);
+  color: white;
+}
+.principio #interes {
+  width: 100vw;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.principio #interes .fila {
+  width: 80vw;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.principio #interes a {
+  width: 50vw;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  border: solid 1px rgb(19, 185, 61);
+}
+.principio #interes a:hover {
+  background-color: rgb(19, 185, 61);
+  box-shadow: 0 0 5px 2px rgb(19, 185, 61);
+}
+
+.categoria-rifle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  background-image: url("../img/ciervo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 40px;
+}
+.categoria-rifle .paginacion {
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.categoria-rifle .paginacion a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.categoria-rifle .paginacion a.activo {
+  background-color: rgb(19, 185, 61);
+  color: white;
+}
+.categoria-rifle .paginacion a:hover:not(.activo) {
+  background-color: black;
+}
+.categoria-rifle .linea {
+  width: 90%;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.categoria-rifle .linea .contenedor-rifle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.categoria-rifle .linea .contenedor-rifle a {
+  text-decoration: none;
+  color: white;
+}
+.categoria-rifle .linea .contenedor-rifle img {
+  width: 431px;
+}
+.categoria-rifle .linea .contenedor-rifle .ribbon-2 {
+  --f: 10px; /* control the folded part*/
+  --r: 15px; /* control the ribbon shape */
+  --t: 10px; /* the top offset */
+  position: relative;
+  inset: var(--t) calc(-1 * var(--f)) auto auto;
+  padding: 0 10px var(--f) calc(10px + var(--r));
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+          clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%, calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)), var(--r) calc(50% - var(--f) / 2));
+  background: rgb(19, 185, 61);
+  box-shadow: 0 calc(-1 * var(--f)) 0 inset rgba(0, 0, 0, 0.3333333333);
+}
+
+main.admin {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: #FFB6C1;
+}
+main.admin h1 {
+  font-size: 3rem;
+}
+main.admin p.total span {
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 2px #2f2966;
+}
+main.admin div:has(table) {
+  margin: 2rem;
+  height: 500px;
+  overflow-y: scroll;
+  position: relative;
+}
+main.admin table {
+  border: solid;
+  border-collapse: collapse;
+}
+main.admin table thead {
+  position: sticky;
+  top: 0px;
+}
+main.admin table thead tr {
+  border: solid 3px black;
+}
+main.admin table td {
+  font-size: 1.5rem;
+}
+main.admin table th {
+  font-size: 1.8rem;
+}
+main.admin table td, main.admin table th {
+  border: solid 2px black;
+  padding: 1rem 2rem;
+}
+main.admin table td img, main.admin table th img {
+  width: 200px;
+  height: auto;
+}
+main.admin table td.options div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  visibility: hidden;
+}
+main.admin table td.options {
+  border: none;
+}
+main.admin table tr:hover td.options div {
+  visibility: visible;
+}
+main.admin table th {
+  background-color: #2f2966;
+  color: black;
+}
+main.admin table tr:hover {
+  background-color: #8b8b8b !important;
+  color: black;
+}
+main.admin table tr:has(input[type=checkbox]:checked) {
+  background-color: orange;
+}
+
+.container-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.container-tabla .alumnos-profesor {
+  padding-top: 200px;
+  text-align: center;
+}
+.container-tabla .alumnos-profesor table {
+  font-size: 2rem;
+  border-collapse: collapse;
+}
+.container-tabla .alumnos-profesor table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.container-tabla .alumnos-profesor table th, .container-tabla .alumnos-profesor table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.container-tabla .alumnos-profesor table th a, .container-tabla .alumnos-profesor table td a {
+  color: black;
+}
+.container-tabla .alumnos-profesor table th a:hover, .container-tabla .alumnos-profesor table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.container-tabla .alumnos-profesor table th i, .container-tabla .alumnos-profesor table td i {
+  padding: 5px;
+}
+.container-tabla .alumnos-profesor table tr:hover {
+  color: white;
+  background-color: #2f2966;
+  transition: background-color 0.25s ease;
+}
+.container-tabla p {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -242,8 +599,8 @@ header {
   z-index: 9;
 }
 header img {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   margin: 5px;
 }
 header .parteLogo {
@@ -451,4 +808,21 @@ button:hover {
 
 .register p a:hover {
   text-decoration: underline;
+}
+
+.buscador {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.buscador button#botonLupa {
+  padding: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.buscador button#botonLupa img {
+  height: 16px;
+  width: 16px;
 }/*# sourceMappingURL=style.css.map */
